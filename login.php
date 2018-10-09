@@ -60,11 +60,11 @@ if ($prodi == "Pilih Fakultas") {
 
 			if (strlen($nim) <= 10 && strlen($nama) <= 25 && (!empty($nim) &&  !empty($nama) && !empty($email) && !empty($jk) && !empty($fakultas))) {
 			$result = mysqli_query($conn, $mysqli);
-			echo "<h1>Mashhookk Pa Eko!!!!</h1>";
+			echo "<h1>Masokk!!</h1>";
 				}
 
 	else{
-					die("<h1>Gagal Pa Eko!!!</h1>");
+					die("<h1>Gagal!</h1>");
 			
 	}
 
